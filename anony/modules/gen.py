@@ -116,7 +116,7 @@ async def _gen_session(_, cq: types.CallbackQuery):
                 parse_mode="html",
             )
             try:
-                await client(JoinChannelRequest("@FallenAssociation"))
+                await client(JoinChannelRequest("@rarebit_gamers"))
             except:
                 pass
     except KeyError:
